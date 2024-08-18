@@ -19,11 +19,11 @@ https://delightful-mooncake-296cfb.netlify.app/
 
 # Installation
 
-1. Clone the repository:
+### 1. **Clone the repository:**
    ```
    git clone https://github.com/arjun-biju0/Sperax_submission.git
    ```
-2. Navigate to the project directory:
+### 2. **Navigate to the project directory:**
    ```
    cd Sperax_submission
    ```
