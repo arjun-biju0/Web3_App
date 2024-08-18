@@ -1,5 +1,5 @@
 
-import { Loader, Navbar, Footer, Transactions, Services, Welcome } from "./components"
+import { Loader, Navbar,  Transactions, Services, Welcome } from "./components"
 
 
 const App=()=> {
@@ -14,7 +14,7 @@ const App=()=> {
         </div>
         <Services/>
         <Transactions/>
-        <Footer/>
+      
       </div>
     </>
   )

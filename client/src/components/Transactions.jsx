@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { TransactionContext } from "../context/TransactionContext";
 import {shortenAddress} from '../utils/shortenAddress';
-const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword, amount, url }) => {
+const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword, amount }) => {
 
   return (
     <div className="bg-[#181918] m-4 flex flex-1
@@ -38,7 +38,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
 };
 
 const Transactions = () => {
-  const { getAllTransactions, currentAccount } = useContext(TransactionContext);
+  const { transactions, currentAccount } = useContext(TransactionContext);
   
 
   return (
@@ -55,7 +55,7 @@ const Transactions = () => {
         )}
 
         <div className="flex flex-wrap justify-center items-center mt-10">
-          {getAllTransactions.reverse().map((transaction, i) => (
+          {transactions.reverse().map((transaction, i) => (
             <TransactionsCard key={i} {...transaction} />
           ))}
         </div>
