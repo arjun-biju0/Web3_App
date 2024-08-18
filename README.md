@@ -10,6 +10,14 @@ Live Demo link to the project
 
 https://delightful-mooncake-296cfb.netlify.app/
 
+# Features
+
+**MetaMask Integration**: Connect your MetaMask wallet to interact with the Ethereum blockchain.
+
+**Ethereum Transfers**: Send Ethereum from your connected wallet to any other Ethereum address.
+
+**Real-time Balance Display**: View your account balance in real time.
+
 
 # Prerequisites
 
