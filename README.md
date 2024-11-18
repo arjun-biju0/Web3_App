@@ -1,5 +1,5 @@
 
-# Sperax Submission
+# MetaTransfer
 
 This repository contains the source code for the Sperax Submission. It includes a frontend client and a smart contract deployed on the Ethereum Sepolia testnet.
 
